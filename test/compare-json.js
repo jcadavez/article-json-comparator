@@ -1,5 +1,5 @@
 const config_p = require("../modules/configs/article-prod"); // old
-const config_d = require("../modules/configs/article-bi-story");// new
+const config_d = require("../modules/configs/article-dev");// new
 const utils = require("../modules/utils");
 
 var assert = require('chai').assert;
