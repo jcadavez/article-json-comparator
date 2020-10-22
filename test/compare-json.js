@@ -10,7 +10,6 @@ describe('Should compare two JSON files and console.log the Differences', () => 
         console.log("Comparing *LAYOUT* properties...")
         const layout_old = config_p.layout;
         const layout_new = config_d.data.document.layout; // TODO: Edit depending on location of layout map
-        console.log(`\t\t\tOld\tvs\tNew`); 
         assert.isTrue(utils.compare(layout_old, layout_new));
     });
 
